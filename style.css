@@ -1,0 +1,23 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fcfafb;
+}
+#timer {
+    font-size: 3.3rem;
+    font-weight: 500;
+}
+.buttons > button {
+    font-size: 1.3rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.buttons button[disabled] {
+    opacity: 0.5;
+    cursor: default;
+}
